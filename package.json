@@ -1,0 +1,23 @@
+{
+  "name": "jest-odyssey",
+  "version": "1.0.0",
+  "description": "A practice project for unit testing using JEST",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RatulAlMamun/Jest-odyssey.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RatulAlMamun/Jest-odyssey/issues"
+  },
+  "homepage": "https://github.com/RatulAlMamun/Jest-odyssey#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
