@@ -22,5 +22,5 @@ test('throws on error', () => {
   // check if the function throw error message with specific substring
   expect(func1).toThrow('custom');
   // check if the function throw error message match with exact
-  expect(func1).toThrow(new Error('This is a custom errors'));
+  expect(func1).toThrow(new Error('This is a custom error'));
 });
